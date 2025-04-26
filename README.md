@@ -58,29 +58,33 @@ python main.py "https://github.com/"
 ```
 
 ### Generate a QR code with custom size and border:
-  ```bash
-  python main.py "Hello, World!" -s 15 -b 2
-  ```
+```bash
+python main.py "Hello, World!" -s 15 -b 2
+```
   
 ### Generate a QR code with high error correction:
-  ```bash
-  python main.py "Important information" -e H
-  ```
+```bash
+python main.py "Important information" -e H
+```
   
 ### Generate a QR code with custom colors:
-  ```bash
-  python main.py "Colorful QR" --fg blue --bg yellow
-  ```
+```bash
+python main.py "Colorful QR" --fg blue --bg yellow
+```
   
 ### Save to a specific file:
-  ```bash
-  python main.py "Custom filename" -o my_qrcode.png
-  ```
+```bash
+python main.py "Custom filename" -o my_qrcode.png
+```
   
-  ## 💡 Tips
+## 💡 Tips
 
 - Higher error correction levels (Q, H) make QR codes more reliable but also larger
 - For scanning from screens, the default error correction (M) is usually sufficient
 - For printed QR codes that might get damaged, use higher error correction (H)
 - Use larger sizes (-s 20 or higher) for printing QR codes
 - QR codes work best with high contrast (black and white), but you can experiment with colors
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
