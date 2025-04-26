@@ -77,4 +77,10 @@ python main.py "https://github.com/"
   python main.py "Custom filename" -o my_qrcode.png
   ```
   
-  
+  ## 💡 Tips
+
+- Higher error correction levels (Q, H) make QR codes more reliable but also larger
+- For scanning from screens, the default error correction (M) is usually sufficient
+- For printed QR codes that might get damaged, use higher error correction (H)
+- Use larger sizes (-s 20 or higher) for printing QR codes
+- QR codes work best with high contrast (black and white), but you can experiment with colors
