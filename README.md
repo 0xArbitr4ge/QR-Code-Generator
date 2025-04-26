@@ -50,3 +50,31 @@ python main.py <data> [options]
 - `--fg`: Foreground color (default: black)
 - `--bg`: Background color (default: white)
 
+## 📝 Examples
+
+### Generate a QR code for a website:
+```bash
+python main.py "https://github.com/"
+```
+
+### Generate a QR code with custom size and border:
+  ```bash
+  python main.py "Hello, World!" -s 15 -b 2
+  ```
+  
+### Generate a QR code with high error correction:
+  ```bash
+  python main.py "Important information" -e H
+  ```
+  
+### Generate a QR code with custom colors:
+  ```bash
+  python main.py "Colorful QR" --fg blue --bg yellow
+  ```
+  
+### Save to a specific file:
+  ```bash
+  python main.py "Custom filename" -o my_qrcode.png
+  ```
+  
+  
