@@ -20,7 +20,7 @@ A simple command-line tool to generate QR codes from text or URLs.
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/qr-code-generator.git
+git clone https://github.com/0xArbitr4ge/qr-code-generator.git
 cd qr-code-generator
 ```
 
@@ -34,4 +34,19 @@ pip install -r requirements.txt
 chmod +x main.py
 ```
 
+## 🔍 Usage
+
+```bash
+python main.py <data> [options]
+```
+
+## ⚙️ Options
+
+- `data`: Text or URL to encode in the QR code (required)
+- `-o, --output`: Output file (PNG format)
+- `-s, --size`: Size of each box in pixels (default: 10)
+- `-b, --border`: Border size in boxes (default: 4)
+- `-e, --error`: Error correction level: L (7%), M (15%), Q (25%), H (30%) (default: M)
+- `--fg`: Foreground color (default: black)
+- `--bg`: Background color (default: white)
 
