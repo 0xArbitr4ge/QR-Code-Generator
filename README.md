@@ -16,4 +16,22 @@ A simple command-line tool to generate QR codes from text or URLs.
 - qrcode library
 - Pillow library
 
+## 🚀 Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/yourusername/qr-code-generator.git
+cd qr-code-generator
+```
+
+2. Install requirements:
+```bash
+pip install -r requirements.txt
+```
+
+3. Make the script executable (Unix/Linux/macOS):
+```bash
+chmod +x main.py
+```
+
 
