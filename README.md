@@ -84,3 +84,7 @@ python main.py "Custom filename" -o my_qrcode.png
 - For printed QR codes that might get damaged, use higher error correction (H)
 - Use larger sizes (-s 20 or higher) for printing QR codes
 - QR codes work best with high contrast (black and white), but you can experiment with colors
+
+## 📄 License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
